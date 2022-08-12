@@ -1,7 +1,6 @@
 package com.bridgelabz;
 
-public class HashTableMain
-{
+public class HashTableMain {
     public static void main(String[] args) {
         System.out.println("Welcome to hashtable Program");
         MyHashTable<String, Integer> hashTable = new MyHashTable();
@@ -23,6 +22,9 @@ public class HashTableMain
                 value = value + 1;
             hashTable.add(word , value);
         }
+        System.out.println(hashTable);
+        hashTable.remove("avoidable");
+
         System.out.println(hashTable);
     }
 }
