@@ -1,10 +1,11 @@
 package com.bridgelabz;
 
-public class HashTableMain {
+public class HashTableMain
+{
     public static void main(String[] args) {
         System.out.println("Welcome to hashtable Program");
         MyHashTable<String, Integer> hashTable = new MyHashTable();
-        String sentence = "Welcome to the world";
+        String sentence = "To be or not to be";
 
         // Storing given sentence in an array.
         // Converting the sentence to lower case and removing spaces.
